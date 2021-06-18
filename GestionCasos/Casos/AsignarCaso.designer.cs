@@ -149,6 +149,7 @@ namespace GestionCasos
             // 
             // txtAsignado
             // 
+            this.txtAsignado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtAsignado.BorderColor = System.Drawing.Color.Black;
             this.txtAsignado.BorderRadius = 4;
             this.txtAsignado.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -161,11 +162,11 @@ namespace GestionCasos
             this.txtAsignado.FillColor = System.Drawing.Color.Black;
             this.txtAsignado.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtAsignado.FocusedState.Parent = this.txtAsignado;
-            this.txtAsignado.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtAsignado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAsignado.ForeColor = System.Drawing.Color.Lime;
             this.txtAsignado.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAsignado.HoverState.Parent = this.txtAsignado;
-            this.txtAsignado.Location = new System.Drawing.Point(225, 461);
+            this.txtAsignado.Location = new System.Drawing.Point(271, 471);
             this.txtAsignado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAsignado.Name = "txtAsignado";
             this.txtAsignado.PasswordChar = '\0';
@@ -178,18 +179,21 @@ namespace GestionCasos
             // 
             // lbAsignado
             // 
+            this.lbAsignado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbAsignado.AutoSize = true;
             this.lbAsignado.BackColor = System.Drawing.Color.Transparent;
-            this.lbAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAsignado.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAsignado.ForeColor = System.Drawing.Color.White;
-            this.lbAsignado.Location = new System.Drawing.Point(123, 470);
+            this.lbAsignado.Location = new System.Drawing.Point(160, 480);
             this.lbAsignado.Name = "lbAsignado";
-            this.lbAsignado.Size = new System.Drawing.Size(96, 18);
+            this.lbAsignado.Size = new System.Drawing.Size(95, 21);
             this.lbAsignado.TabIndex = 70;
             this.lbAsignado.Text = "Asignado a:";
+            this.lbAsignado.Click += new System.EventHandler(this.lbAsignado_Click);
             // 
             // txtMedioReceptivo
             // 
+            this.txtMedioReceptivo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMedioReceptivo.BorderColor = System.Drawing.Color.Black;
             this.txtMedioReceptivo.BorderRadius = 4;
             this.txtMedioReceptivo.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -202,11 +206,11 @@ namespace GestionCasos
             this.txtMedioReceptivo.FillColor = System.Drawing.Color.Black;
             this.txtMedioReceptivo.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtMedioReceptivo.FocusedState.Parent = this.txtMedioReceptivo;
-            this.txtMedioReceptivo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtMedioReceptivo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMedioReceptivo.ForeColor = System.Drawing.Color.Lime;
             this.txtMedioReceptivo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedioReceptivo.HoverState.Parent = this.txtMedioReceptivo;
-            this.txtMedioReceptivo.Location = new System.Drawing.Point(225, 401);
+            this.txtMedioReceptivo.Location = new System.Drawing.Point(271, 411);
             this.txtMedioReceptivo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMedioReceptivo.Name = "txtMedioReceptivo";
             this.txtMedioReceptivo.PasswordChar = '\0';
@@ -219,18 +223,21 @@ namespace GestionCasos
             // 
             // lbMedioReceptivo
             // 
+            this.lbMedioReceptivo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbMedioReceptivo.AutoSize = true;
             this.lbMedioReceptivo.BackColor = System.Drawing.Color.Transparent;
-            this.lbMedioReceptivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMedioReceptivo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMedioReceptivo.ForeColor = System.Drawing.Color.White;
-            this.lbMedioReceptivo.Location = new System.Drawing.Point(80, 411);
+            this.lbMedioReceptivo.Location = new System.Drawing.Point(117, 421);
             this.lbMedioReceptivo.Name = "lbMedioReceptivo";
-            this.lbMedioReceptivo.Size = new System.Drawing.Size(139, 18);
+            this.lbMedioReceptivo.Size = new System.Drawing.Size(140, 21);
             this.lbMedioReceptivo.TabIndex = 68;
             this.lbMedioReceptivo.Text = "Medio Receptivo:";
+            this.lbMedioReceptivo.Click += new System.EventHandler(this.lbMedioReceptivo_Click);
             // 
             // txtCircuito
             // 
+            this.txtCircuito.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCircuito.BorderColor = System.Drawing.Color.Black;
             this.txtCircuito.BorderRadius = 4;
             this.txtCircuito.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -243,11 +250,11 @@ namespace GestionCasos
             this.txtCircuito.FillColor = System.Drawing.Color.Black;
             this.txtCircuito.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtCircuito.FocusedState.Parent = this.txtCircuito;
-            this.txtCircuito.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtCircuito.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCircuito.ForeColor = System.Drawing.Color.Lime;
             this.txtCircuito.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCircuito.HoverState.Parent = this.txtCircuito;
-            this.txtCircuito.Location = new System.Drawing.Point(225, 342);
+            this.txtCircuito.Location = new System.Drawing.Point(271, 352);
             this.txtCircuito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCircuito.Name = "txtCircuito";
             this.txtCircuito.PasswordChar = '\0';
@@ -260,18 +267,21 @@ namespace GestionCasos
             // 
             // lbCircuiton
             // 
+            this.lbCircuiton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbCircuiton.AutoSize = true;
             this.lbCircuiton.BackColor = System.Drawing.Color.Transparent;
-            this.lbCircuiton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCircuiton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCircuiton.ForeColor = System.Drawing.Color.White;
-            this.lbCircuiton.Location = new System.Drawing.Point(147, 353);
+            this.lbCircuiton.Location = new System.Drawing.Point(184, 363);
             this.lbCircuiton.Name = "lbCircuiton";
-            this.lbCircuiton.Size = new System.Drawing.Size(72, 18);
+            this.lbCircuiton.Size = new System.Drawing.Size(71, 21);
             this.lbCircuiton.TabIndex = 66;
             this.lbCircuiton.Text = "Circuito:";
+            this.lbCircuiton.Click += new System.EventHandler(this.lbCircuiton_Click);
             // 
             // txtJunta
             // 
+            this.txtJunta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtJunta.BorderColor = System.Drawing.Color.Black;
             this.txtJunta.BorderRadius = 4;
             this.txtJunta.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -284,11 +294,11 @@ namespace GestionCasos
             this.txtJunta.FillColor = System.Drawing.Color.Black;
             this.txtJunta.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtJunta.FocusedState.Parent = this.txtJunta;
-            this.txtJunta.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtJunta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtJunta.ForeColor = System.Drawing.Color.Lime;
             this.txtJunta.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtJunta.HoverState.Parent = this.txtJunta;
-            this.txtJunta.Location = new System.Drawing.Point(225, 281);
+            this.txtJunta.Location = new System.Drawing.Point(271, 291);
             this.txtJunta.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtJunta.Name = "txtJunta";
             this.txtJunta.PasswordChar = '\0';
@@ -301,18 +311,21 @@ namespace GestionCasos
             // 
             // lbJunta
             // 
+            this.lbJunta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbJunta.AutoSize = true;
             this.lbJunta.BackColor = System.Drawing.Color.Transparent;
-            this.lbJunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbJunta.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbJunta.ForeColor = System.Drawing.Color.White;
-            this.lbJunta.Location = new System.Drawing.Point(106, 292);
+            this.lbJunta.Location = new System.Drawing.Point(143, 302);
             this.lbJunta.Name = "lbJunta";
-            this.lbJunta.Size = new System.Drawing.Size(117, 18);
+            this.lbJunta.Size = new System.Drawing.Size(115, 21);
             this.lbJunta.TabIndex = 64;
             this.lbJunta.Text = "Jta Educ/Adm:";
+            this.lbJunta.Click += new System.EventHandler(this.lbJunta_Click);
             // 
             // txtCodigo
             // 
+            this.txtCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCodigo.BorderColor = System.Drawing.Color.Black;
             this.txtCodigo.BorderRadius = 4;
             this.txtCodigo.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -325,11 +338,11 @@ namespace GestionCasos
             this.txtCodigo.FillColor = System.Drawing.Color.Black;
             this.txtCodigo.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtCodigo.FocusedState.Parent = this.txtCodigo;
-            this.txtCodigo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtCodigo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.ForeColor = System.Drawing.Color.Lime;
             this.txtCodigo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCodigo.HoverState.Parent = this.txtCodigo;
-            this.txtCodigo.Location = new System.Drawing.Point(225, 222);
+            this.txtCodigo.Location = new System.Drawing.Point(271, 232);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.PasswordChar = '\0';
@@ -342,25 +355,29 @@ namespace GestionCasos
             // 
             // lbCodigo
             // 
+            this.lbCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbCodigo.AutoSize = true;
             this.lbCodigo.BackColor = System.Drawing.Color.Transparent;
-            this.lbCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCodigo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCodigo.ForeColor = System.Drawing.Color.White;
-            this.lbCodigo.Location = new System.Drawing.Point(153, 227);
+            this.lbCodigo.Location = new System.Drawing.Point(190, 237);
             this.lbCodigo.Name = "lbCodigo";
-            this.lbCodigo.Size = new System.Drawing.Size(67, 18);
+            this.lbCodigo.Size = new System.Drawing.Size(68, 21);
             this.lbCodigo.TabIndex = 62;
             this.lbCodigo.Text = "Codigo:";
+            this.lbCodigo.Click += new System.EventHandler(this.lbCodigo_Click);
             // 
             // dtpFecha
             // 
+            this.dtpFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtpFecha.CheckedState.Parent = this.dtpFecha;
             this.dtpFecha.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(35)))), ((int)(((byte)(60)))));
             this.dtpFecha.FocusedColor = System.Drawing.Color.Purple;
+            this.dtpFecha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFecha.ForeColor = System.Drawing.Color.White;
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpFecha.HoverState.Parent = this.dtpFecha;
-            this.dtpFecha.Location = new System.Drawing.Point(225, 161);
+            this.dtpFecha.Location = new System.Drawing.Point(271, 171);
             this.dtpFecha.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpFecha.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpFecha.Name = "dtpFecha";
@@ -371,18 +388,21 @@ namespace GestionCasos
             // 
             // lbFecha
             // 
+            this.lbFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbFecha.AutoSize = true;
             this.lbFecha.BackColor = System.Drawing.Color.Transparent;
-            this.lbFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFecha.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFecha.ForeColor = System.Drawing.Color.White;
-            this.lbFecha.Location = new System.Drawing.Point(160, 170);
+            this.lbFecha.Location = new System.Drawing.Point(197, 180);
             this.lbFecha.Name = "lbFecha";
-            this.lbFecha.Size = new System.Drawing.Size(59, 18);
+            this.lbFecha.Size = new System.Drawing.Size(56, 21);
             this.lbFecha.TabIndex = 60;
             this.lbFecha.Text = "Fecha:";
+            this.lbFecha.Click += new System.EventHandler(this.lbFecha_Click);
             // 
             // txtConsecutivo
             // 
+            this.txtConsecutivo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtConsecutivo.BorderColor = System.Drawing.Color.Black;
             this.txtConsecutivo.BorderRadius = 4;
             this.txtConsecutivo.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -395,11 +415,11 @@ namespace GestionCasos
             this.txtConsecutivo.FillColor = System.Drawing.Color.Black;
             this.txtConsecutivo.FocusedState.BorderColor = System.Drawing.Color.Aqua;
             this.txtConsecutivo.FocusedState.Parent = this.txtConsecutivo;
-            this.txtConsecutivo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtConsecutivo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConsecutivo.ForeColor = System.Drawing.Color.Lime;
             this.txtConsecutivo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConsecutivo.HoverState.Parent = this.txtConsecutivo;
-            this.txtConsecutivo.Location = new System.Drawing.Point(225, 102);
+            this.txtConsecutivo.Location = new System.Drawing.Point(271, 112);
             this.txtConsecutivo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtConsecutivo.Name = "txtConsecutivo";
             this.txtConsecutivo.PasswordChar = '\0';
@@ -412,23 +432,26 @@ namespace GestionCasos
             // 
             // lbConsecutivo
             // 
+            this.lbConsecutivo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbConsecutivo.AutoSize = true;
             this.lbConsecutivo.BackColor = System.Drawing.Color.Transparent;
-            this.lbConsecutivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbConsecutivo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbConsecutivo.ForeColor = System.Drawing.Color.White;
-            this.lbConsecutivo.Location = new System.Drawing.Point(112, 112);
+            this.lbConsecutivo.Location = new System.Drawing.Point(149, 122);
             this.lbConsecutivo.Name = "lbConsecutivo";
-            this.lbConsecutivo.Size = new System.Drawing.Size(107, 18);
+            this.lbConsecutivo.Size = new System.Drawing.Size(104, 21);
             this.lbConsecutivo.TabIndex = 58;
             this.lbConsecutivo.Text = "Consecutivo:";
+            this.lbConsecutivo.Click += new System.EventHandler(this.lbConsecutivo_Click);
             // 
             // lbTitulo
             // 
+            this.lbTitulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbTitulo.AutoSize = true;
             this.lbTitulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTitulo.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbTitulo.Location = new System.Drawing.Point(104, 37);
+            this.lbTitulo.Location = new System.Drawing.Point(150, 47);
             this.lbTitulo.Name = "lbTitulo";
             this.lbTitulo.Size = new System.Drawing.Size(434, 29);
             this.lbTitulo.TabIndex = 73;

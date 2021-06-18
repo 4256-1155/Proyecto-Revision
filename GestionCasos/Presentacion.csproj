@@ -113,13 +113,19 @@
     <Compile Include="Alertas\Alerta.Designer.cs">
       <DependentUpon>Alerta.cs</DependentUpon>
     </Compile>
-    <Compile Include="AsignarCaso.cs">
+    <Compile Include="Casos\AsignarCaso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AsignarCaso.designer.cs">
+    <Compile Include="Casos\AsignarCaso.designer.cs">
       <DependentUpon>AsignarCaso.cs</DependentUpon>
     </Compile>
     <Compile Include="CasosFalsos.cs" />
+    <Compile Include="Configuraciones\fConfiguraciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuraciones\fConfiguraciones.designer.cs">
+      <DependentUpon>fConfiguraciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,8 +187,11 @@
     <EmbeddedResource Include="Alertas\Alerta.resx">
       <DependentUpon>Alerta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AsignarCaso.resx">
+    <EmbeddedResource Include="Casos\AsignarCaso.resx">
       <DependentUpon>AsignarCaso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuraciones\fConfiguraciones.resx">
+      <DependentUpon>fConfiguraciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fDashBoard.resx">
       <DependentUpon>fDashBoard.cs</DependentUpon>
