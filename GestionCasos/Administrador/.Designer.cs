@@ -94,7 +94,6 @@ namespace GestionCasos
             this.gunaTextBox1.SelectedText = "";
             this.gunaTextBox1.Size = new System.Drawing.Size(160, 32);
             this.gunaTextBox1.TabIndex = 9;
-            this.gunaTextBox1.Text = "gunaTextBox1";
             // 
             // gunaLabel4
             // 

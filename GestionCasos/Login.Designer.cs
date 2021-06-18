@@ -188,7 +188,7 @@ namespace GestionCasos
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.White;
             this.btnCerrar.Image = global::GestionCasos.Properties.Resources.close;
-            this.btnCerrar.Location = new System.Drawing.Point(12, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(4, 4);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(24, 25);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -198,13 +198,14 @@ namespace GestionCasos
             // 
             // pbLogo
             // 
+            this.pbLogo.BackColor = System.Drawing.Color.White;
             this.pbLogo.BaseColor = System.Drawing.Color.White;
             this.pbLogo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pbLogo.Image = global::GestionCasos.Properties.Resources.WhatsApp_Image_2021_06_05_at_2_44_05_PM;
+            this.pbLogo.Image = global::GestionCasos.Properties.Resources.Logo_AMCONSULTORES;
             this.pbLogo.Location = new System.Drawing.Point(0, 0);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(273, 252);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 14;
             this.pbLogo.TabStop = false;
             // 
